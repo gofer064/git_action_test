@@ -2,11 +2,7 @@
 # GitHub Action Workflow Basics
 #
 # Version      Date        Info
-<<<<<<< HEAD
 # 1.1          2022        Initial Version
-=======
-# 1.2          2022        Initial Version
->>>>>>> 833c796515fe40847f610937a135083b2837a3c3
 #
 # Copy from Denis Astahov ADV-IT Copyleft (c) 2022
 #---------------------------------------------------------------------
@@ -18,7 +14,7 @@ env:
 on: 
   push:
     branches: 
-      - main
+      - test
 
 jobs:
   my_testing:
